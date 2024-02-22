@@ -29,3 +29,10 @@ git branch -a - list all branches
 git switch branchName - switches to a branch
 git merge branchName - merges branch into branch we are on
 git branch -d branchName - deletes branch if merged in master branc
+
+
+Remote Repositories
+
+git remote add origin URLtoRemoteRepo - link remote repo to local repo
+git branch -M main - renaming 'master' branch to 'main'
+git push -u origin main - pushing into origin main branch
