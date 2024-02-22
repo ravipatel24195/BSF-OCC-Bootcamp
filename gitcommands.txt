@@ -16,3 +16,8 @@ git status - shows which files are in staging area
 git add <filename> - stages file
 git commit - m "commit message" - commiting files in the staging area
 git rm --cached filename - removes a file from staging area
+
+git reset - removes all files in the staging area
+
+git log - see commit history
+git log --oneline - shortens commit history
